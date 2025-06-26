@@ -35,24 +35,24 @@ You will need:
 10. **Put the SD card into your Retroid Pocket 5** (or other device that can boot from it - we'll be assuming you're using your RP5 in this guide).
 11. On your RP5, **swipe down** from the top so you find your Android options (Internet, Floating Icon, etc). **Swipe down a second time** to see even more options. At the bottom-right corner, you'll find the Power ⏻ symbol. Press that.
 12. Use the option to **Restart**. **Immediately start holding Volume Up** on the top of your RP5. You should get a scary - but entirely safe! - sideways screen with text made for ants. You can let go of Volume Up now.
-13. **If you see a lot of options:** Press Volume Up to choose the 2nd option, "Boot". Press Power to confirm it. In my experience, I only ever saw this once.
-14. **If you see just a few options in a box:** If you have an RP5, just press Power to select the topmost option, "Retroid Pocket 5". (If you have an RP Mini, press Volume Down to switch options, then press Power.)
-15. Your RP5 will now reboot into Rocknix. You'll get some text saying it's doing a lot of things, including "extending" a "file partition". You don't need to remember the terminology, but this is important - it's finishing setting up our SD card for us!
-16. Your RP5 will then boot into Rocknix proper. If there's anything you have in mind for Rocknix, the team has a [really helpful Wiki](https://rocknix.org/) you can check out if you want. When you're ready to move on, **press Start** to open the main menu.
-17. Navigate down to **System Settings**. **Press A** to choose it. (For those of you who have customized your physical buttons: by default, that will be the face button on the right!)
-18. Navigate down to **Security**. Make a note of the **Root Password** as well since you'll need it later - it should be just `rocknix` by default.
-19. **Press B** (bottom face button) twice to go back. Navigate up to **Network Settings** and open it with A (right face button). Make sure the following are turned on: **Show Network Indicator**, **Enable WiFi**, and **Enable SSH**.
-20. Navigate to **WiFi SSID** and open it with A. Choose your WiFi network.
-21. Use **WiFi Key** to enter your WiFi password (if applicable).
-22. **Press B** (bottom face button) when you're done to "lock in" your settings. You should get a pop-up that says "WiFi Enabled", press A to acknowledge it.
-23. Open **Network Settings** again. **Make a note of the IP address - this is super important**. If you don't see an IP address there (4 groups of numbers with dots between them), press B to go back to the previous menu, then press A again - this will reload the Network Settings menu. (Note: On the latest version of Rocknix, I encountered a bug where the WiFi SSID list was empty while "Enable SSH" was turned on. You may need to turn it off temporarily to get WiFi to connect the first time.)
-24. Back to your computer! Now's a good time to make sure it's on the same WiFi network that your RP5 is using.
-25. Open **Terminal**. On Windows, just open the 🪟Start menu and type in 'terminal'. The first app result should be Terminal (with a "`>_`" on the icon). Open that.
-26. Type in the following text. Please note that all commands from now on need to be typed **exactly** as you see them here, they're case-sensitive. `ssh root@`
-27. Without typing in any spaces or typing Enter or anything: **type in the IP address** from step 20. So, for example, if your IP is "192.168.12.34", it would look like this all together: `ssh` `root​@​192.168.12.34`
-28. **Press Enter** to start the SSH process. If you're asked if you want to continue connecting, and that the "authenticity" can't be established, just type `yes` and press Enter.
-29. You'll be prompted for a password. **Type in the password from step 18** and press Enter. (You won't see anything while you type - that's normal!)
-30. You should get "ROCKNIX" in big letters - which means it's ready! Finally, we can use the command which was the whole reason we needed to do all this to begin with. Just type the following and press Enter. `chmod -R 777 /storage`
+ - **If you see a lot of options:** Press Volume Up to choose the 2nd option, "Boot". Press Power to confirm it. In my experience, I only ever saw this once.
+ - **If you see just a few options in a box:** If you have an RP5, just press Power to select the topmost option, "Retroid Pocket 5". (If you have an RP Mini, press Volume Down to switch options, then press Power.)
+13. Your RP5 will now reboot into Rocknix. You'll get some text saying it's doing a lot of things, including "extending" a "file partition". You don't need to remember the terminology, but this is important - it's finishing setting up our SD card for us!
+14. Your RP5 will then boot into Rocknix proper. If there's anything you have in mind for Rocknix, the team has a [really helpful Wiki](https://rocknix.org/) you can check out if you want. When you're ready to move on, **press Start** to open the main menu.
+15. Navigate down to **System Settings**. **Press A** to choose it. (For those of you who have customized your physical buttons: by default, that will be the face button on the right!)
+16. Navigate down to **Security**. Make a note of the **Root Password** as well since you'll need it later - it should be just `rocknix` by default.
+17. **Press B** (bottom face button) twice to go back. Navigate up to **Network Settings** and open it with A (right face button). Make sure the following are turned on: **Show Network Indicator**, **Enable WiFi**, and **Enable SSH**.
+18. Navigate to **WiFi SSID** and open it with A. Choose your WiFi network.
+19. Use **WiFi Key** to enter your WiFi password (if applicable).
+20. **Press B** (bottom face button) when you're done to "lock in" your settings. You should get a pop-up that says "WiFi Enabled", press A to acknowledge it.
+21. Open **Network Settings** again. **Make a note of the IP address - this is super important**. If you don't see an IP address there (4 groups of numbers with dots between them), press B to go back to the previous menu, then press A again - this will reload the Network Settings menu. (Note: On the latest version of Rocknix, I encountered a bug where the WiFi SSID list was empty while "Enable SSH" was turned on. You may need to turn it off temporarily to get WiFi to connect the first time.)
+22. Back to your computer! Now's a good time to make sure it's on the same WiFi network that your RP5 is using.
+23. Open **Terminal**. On Windows, just open the 🪟Start menu and type in 'terminal'. The first app result should be Terminal (with a "`>_`" on the icon). Open that.
+24. Type in the following text. Please note that all commands from now on need to be typed **exactly** as you see them here, they're case-sensitive. `ssh root@`
+25. Without typing in any spaces or typing Enter or anything: **type in the IP address** from step 20. So, for example, if your IP is "192.168.12.34", it would look like this all together: `ssh` `root​@​192.168.12.34`
+26. **Press Enter** to start the SSH process. If you're asked if you want to continue connecting, and that the "authenticity" can't be established, just type `yes` and press Enter.
+27. You'll be prompted for a password. **Type in the password from step 18** and press Enter. (You won't see anything while you type - that's normal!)
+28. You should get "ROCKNIX" in big letters - which means it's ready! Finally, we can use the command which was the whole reason we needed to do all this to begin with. Just type the following and press Enter. `chmod -R 777 /storage`
 
 Give it a few seconds, and... that's it! When it's done, it should just prompt you to type something else if you want, kind of its way of saying it's "ready and waiting" (the ▂ symbol will show up again, like it did before you typed anything on the final step there).
 
@@ -67,4 +67,4 @@ On your device, you'll now have one spot sectioned off (a "partition") for Rockn
 * **Ready to go back to Android?** Just reboot your RP5 anytime... assuming you didn't change Rocknix to be the default OS of course :)
    * **Want to go back to Rocknix?** Use steps 11-14 again! This process will likely start to feel pretty intuitive/easy after doing it a few times.
 
-I'm no expert when it comes to stuff like this, so please don't expect much if you DM me with any questions you may have. All I did was figure out some basic stuff (with the help of friendly Redditors!) and lay the steps out in a piecemeal format like this. If you know what you're doing, it all boils down to: install Rocknix from the website... boot into it... turn on SSH... and perform step 30 haha. I recommend working with the community (i.e. [their Discord](https://www.goretroid.com/pages/about-us)) to troubleshoot things. Thanks!
+I'm no expert when it comes to stuff like this, so please don't expect much if you DM me with any questions you may have. All I did was figure out some basic stuff (with the help of friendly Redditors!) and lay the steps out in a piecemeal format like this. If you know what you're doing, it all boils down to: install Rocknix from the website... boot into it... turn on SSH... and perform the final step haha. I recommend working with the community (i.e. [their Discord](https://www.goretroid.com/pages/about-us)) to troubleshoot things. Thanks!

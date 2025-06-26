@@ -1,15 +1,14 @@
 # Android/Linux Dualboot on RP5
 This guide was, for some reason, "removed by Reddit's filters" after being up for ~8 months. My guess is that Reddit doesn't like it when you edit a post too many times. I was just trying to keep it up to date, but go off, Reddit 🤷‍♀️
+[Original thread here](https://www.reddit.com/r/retroid/comments/1h4lxsv/comment/mznsrlh)
 
-Update 2025-06-24: Cleaned up the guide a bit, turned the big mess of paragraphs at the end into a Q&A-type section, and addressed some comments. Thanks for all the feedback!
-
-\---------------------------------
+-----
 
 Hey everybody, this is Amphy from nowhere in particular. I believe I've done it - I've figured out how to get the best of both Linux and Android on the Retroid Pocket 5 **using one single microSD card**. I'll be filming a video guide for this over the weekend, which I'll share around the community when it's done & link here as well - please look forward to that!
 
 I've written this guide to require as little technical know-how as possible. Everything should be pretty cut and dry. That being said, I'm a technical person myself. So, if I wrote things a little *too* technically, please let me know so I can refine things and/or write in some guard-rails to help the newbies out.
 
-# Before we get started, please be aware that following these steps will wipe your SD card.
+## Before we get started, please be aware that following these steps will wipe your SD card.
 
 There's no way around this that I'm aware of - we're going to need to write Rocknix to the SD card, and that means yeeting your data. I highly recommend either **doing this before you set everything up on your RP5** or **making a complete backup of your SD card to a safe place**. Updating Rocknix afterward should be entirely safe, barring any surprises - it's just the initial setup that requires a wipe.
 

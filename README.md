@@ -35,8 +35,8 @@ You will need:
 10. **Put the SD card into your Retroid Pocket 5** (or other device that can boot from it - we'll be assuming you're using your RP5 in this guide).
 11. On your RP5, **swipe down** from the top so you find your Android options (Internet, Floating Icon, etc). **Swipe down a second time** to see even more options. At the bottom-right corner, you'll find the Power ⏻ symbol. Press that.
 12. Use the option to **Restart**. **Immediately start holding Volume Up** on the top of your RP5. You should get a scary - but entirely safe! - sideways screen with text made for ants. You can let go of Volume Up now.
- - **If you see a lot of options:** Press Volume Up to choose the 2nd option, "Boot". Press Power to confirm it. In my experience, I only ever saw this once.
- - **If you see just a few options in a box:** If you have an RP5, just press Power to select the topmost option, "Retroid Pocket 5". (If you have an RP Mini, press Volume Down to switch options, then press Power.)
+    * **If you see a lot of options:** Press Volume Up to choose the 2nd option, "Boot". Press Power to confirm it. In my experience, I only ever saw this once.
+    * **If you see just a few options in a box:** If you have an RP5, just press Power to select the topmost option, "Retroid Pocket 5". (If you have an RP Mini, press Volume Down to switch options, then press Power.)
 13. Your RP5 will now reboot into Rocknix. You'll get some text saying it's doing a lot of things, including "extending" a "file partition". You don't need to remember the terminology, but this is important - it's finishing setting up our SD card for us!
 14. Your RP5 will then boot into Rocknix proper. If there's anything you have in mind for Rocknix, the team has a [really helpful Wiki](https://rocknix.org/) you can check out if you want. When you're ready to move on, **press Start** to open the main menu.
 15. Navigate down to **System Settings**. **Press A** to choose it. (For those of you who have customized your physical buttons: by default, that will be the face button on the right!)

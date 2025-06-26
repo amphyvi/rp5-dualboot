@@ -21,7 +21,7 @@ You will need:
 * A WiFi network which both your computer & your RP5 can use at the same time.
 * Some patience! This is a lot of steps - take them at your own pace and it should be smooth sailing.
 
-# The steps:
+### The steps:
 
 1. Connect your SD card to your computer.
 2. Download the **latest Rocknix image** (ending in `.img.gz`) from here: [https://github.com/ROCKNIX/distribution/releases](https://github.com/ROCKNIX/distribution/releases) There's a chart saying which image to get. In our case, we'll want the Download Package for "Retroid Pocket 5, Pocket Mini".
@@ -58,7 +58,7 @@ Give it a few seconds, and... that's it! When it's done, it should just prompt y
 
 On your device, you'll now have one spot sectioned off (a "partition") for Rocknix with a very fitting `ROCKNIX` label that'll be \~2.1 GB (FAT32) in size. You'll also have a fancy new `STORAGE` partition for the rest of your SD card (ext4) - that's where you'll add your games for both Android and Rocknix to use! Treat this space as you would any normal SD card solution on just about any other handheld... just be sure to not delete the folders Rocknix created (they're all lowercase, i.e. "roms"), otherwise you might run run into headaches in Rocknix.
 
-Tips, tricks, Q&A, etc:
+### Tips, tricks, Q&A, etc:
 
 * **Adding games:** You can use [any of the methods on the Rocknix Wiki](https://rocknix.org/play/add-games/). You can also use [Linux File Systems for Windows by Paragon Software](https://www.paragon-software.com/us/home/linuxfs-windows/#) if you want, which will let you use the SD card directly with your Windows computer at the expense of speed (it's really, really slow!). Perhaps **the best solution to copy files to your RP5** now though is to just **keep the SD card in your RP5**, **boot it into Android**, and **connect your RP5 to your computer using a USB cable**. Transfers are fast, and you can copy to (or from!) the internal RP5 storage and/or the SD card as needed. (You can do this while running Rocknix too, you'll just need to go to Network Settings, then set "USB Gadget function" to "MTP" every time.)
    * **Be sure to point your Android emulators to** `/games-internal/roms/` **to find your ROMs**, The regular `/roms/` may show up as empty on Android. As far as I can tell, it seems to be a Linux filesystem link that Rocknix provides for convenience, and Android doesn't like using links like that.
@@ -67,4 +67,4 @@ Tips, tricks, Q&A, etc:
 * **Ready to go back to Android?** Just reboot your RP5 anytime... assuming you didn't change Rocknix to be the default OS of course :)
    * **Want to go back to Rocknix?** Use steps 11-14 again! This process will likely start to feel pretty intuitive/easy after doing it a few times.
 
-Thanks a bunch for reading! And to everyone in the comments who made suggestions on how to solve the issue we had in the initial version of this guide (where you needed a Linux computer to do all this!), thank you so much for all your help. Special shout-outs to u/kjjphotos for pointing out Rocknix had SSH support - that turned out to be the solution this guide needed. Can't wait to put all this in a video so it'll be more accessible to everyone!
+I'm no expert when it comes to stuff like this, so please don't expect much if you DM me with any questions you may have. All I did was figure out some basic stuff (with the help of friendly Redditors!) and lay the steps out in a piecemeal format like this. If you know what you're doing, it all boils down to: install Rocknix from the website... boot into it... turn on SSH... and perform step 30 haha. I recommend working with the community (i.e. [their Discord](https://www.goretroid.com/pages/about-us)) to troubleshoot things. Thanks!

@@ -2,6 +2,8 @@
 This guide was, for some reason, "removed by Reddit's filters" after being up for ~8 months. My guess is that Reddit doesn't like it when you edit a post too many times. I was just trying to keep it up to date, but go off, Reddit 🤷‍♀️
 [Original thread here](https://www.reddit.com/r/retroid/comments/1h4lxsv/comment/mznsrlh)
 
+There's a few formatting changes on this version since Github is nicer for that sort of thing. All the info is the same though!
+
 -----
 
 Hey everybody, this is Amphy from nowhere in particular. I believe I've done it - I've figured out how to get the best of both Linux and Android on the Retroid Pocket 5 **using one single microSD card**. I'll be filming a video guide for this over the weekend, which I'll share around the community when it's done & link here as well - please look forward to that!

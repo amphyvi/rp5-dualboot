@@ -34,7 +34,8 @@ You will need:
 7. The check mark next to the SELECT button will go green (this can be a little hard to tell). Now, just press the **START** at the bottom of the window, and Rufus will flash Rocknix to your SD card. You'll receive a message saying "WARNING: ALL DATA ON DEVICE WILL BE DESTROYED." **Now's a great time to do one final check and make sure you chose that SD card, because this is your last chance.** Once you're ready, press the button that means "yeah man, I wanna do it."
 8. If you get a second pop-up that says "IMPORTANT: THIS DRIVE CONTAINS MULTIPLE PARTITIONS" (unlikely that you'll ever see this, unless you're reflashing Rocknix or something!), just press OK to proceed.
 9. Rocknix will now flash to the SD card. When it's done, Rufus will ding and can now safely be closed. The SD card is ready to be removed from your computer! **Do that now.**
-10. **Put the SD card into your Retroid Pocket 5** (or other device that can boot from it - we'll be assuming you're using your RP5 in this guide).
+10. **Put the SD card into your Retroid Pocket 5** (or other device that can boot from it - we'll be assuming you're using your RP5 in this guide). 
+    * If you can see the RP5's screen, then the SD card label should face down. (Thanks for suggesting to add this, [tcardlab](https://github.com/amphyvi/rp5-dualboot/pull/1)!)
 11. On your RP5, **swipe down** from the top so you find your Android options (Internet, Floating Icon, etc). **Swipe down a second time** to see even more options. At the bottom-right corner, you'll find the Power ⏻ symbol. Press that.
 12. Use the option to **Restart**. **Immediately start holding Volume Up** on the top of your RP5. You should get a scary - but entirely safe! - sideways screen with text made for ants. You can let go of Volume Up now.
     * **If you see a lot of options:** Press Volume Up to choose the 2nd option, "Boot". Press Power to confirm it. In my experience, I only ever saw this once.

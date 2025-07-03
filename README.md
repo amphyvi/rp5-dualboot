@@ -28,7 +28,7 @@ You will need:
 1. Connect your SD card to your computer.
 2. Download the **latest Rocknix image** (ending in `.img.gz`) from here: [https://github.com/ROCKNIX/distribution/releases](https://github.com/ROCKNIX/distribution/releases) There's a chart saying which image to get. In our case, we'll want the Download Package for **Retroid Pocket 5, Pocket Mini**, etc.
 
-   ![Download Rocknix](https://github.com/amphyvi/rp5-dualboot/blob/main/screenshots/2%20Rocknix%20download.png?raw=true)
+   ![Download Rocknix](https://github.com/amphyvi/rp5-dualboot/blob/main/screenshots/2%20Rocknix%20download.png)
 
 3. If you don't have it already, download the **Rufus setup** from here: [https://rufus.ie/en](https://rufus.ie/en) In our case, we'll be getting the topmost option in the list, "rufus-4.9.exe". The version number may be different when you go to download it, and that's fine - just grab the topmost option in the list.
 
@@ -52,7 +52,7 @@ You will need:
 
 8. If you get a second pop-up that says "IMPORTANT: THIS DRIVE CONTAINS MULTIPLE PARTITIONS" (unlikely that you'll ever see this, unless you're reflashing Rocknix or something!), just press OK to proceed.
 9. Rocknix will now flash to the SD card. When it's done, Rufus will ding and can now safely be closed. The SD card is ready to be removed from your computer! **Do that now.**
-10. **Put the SD card into your Retroid Pocket 5** (or other device that can boot from it - we'll be assuming you're using an RP5 in this guide). 
+10. **Put the SD card into your Retroid Pocket 5** (or other device that can boot from it... but of course, we're assuming you're using an RP5 in this guide). 
     * If you can see the RP5's screen, then the SD card label should face down when you go to insert it. (Thanks for suggesting to add this, [tcardlab](https://github.com/amphyvi/rp5-dualboot/pull/1)!)
 11. On your RP5, **swipe down** from the top so you find your Android options (Internet, Floating Icon, etc). **Swipe down a second time** to see even more options. At the bottom-right corner, you'll find the Power ⏻ symbol. Press that.
 12. Use the option to **Restart**. **Immediately start holding Volume Up** on the top of your RP5. You should get a scary - but entirely safe! - sideways screen with text made for ants. You can let go of Volume Up now.

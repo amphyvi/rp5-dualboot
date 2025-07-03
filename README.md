@@ -1,8 +1,8 @@
 # Android/Linux Dualboot on RP5
-This guide was, for some reason, "removed by Reddit's filters" after being up for ~8 months. My guess is that Reddit doesn't like it when you edit a post too many times. I was just trying to keep it up to date, but go off, Reddit 🤷‍♀️
+This guide was, for some reason, "removed by Reddit's filters" after being up for ~8 months. My guess is that Reddit doesn't like it when you edit a post too many times. I was just trying to keep it up to date, but go off, Reddit 🤷‍♀️ There's a few formatting changes on this version since Github is nicer for that sort of thing. All the info is the same though!
 [Original thread here](https://www.reddit.com/r/retroid/comments/1h4lxsv/comment/mznsrlh)
 
-There's a few formatting changes on this version since Github is nicer for that sort of thing. All the info is the same though!
+I'm slowly adding screenshots and photos as I'm able to do so, per several requests to do so. I'll continue doing it as time permits. Thanks!
 
 -----
 

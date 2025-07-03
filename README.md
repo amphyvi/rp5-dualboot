@@ -27,12 +27,29 @@ You will need:
 
 1. Connect your SD card to your computer.
 2. Download the **latest Rocknix image** (ending in `.img.gz`) from here: [https://github.com/ROCKNIX/distribution/releases](https://github.com/ROCKNIX/distribution/releases) There's a chart saying which image to get. In our case, we'll want the Download Package for **Retroid Pocket 5, Pocket Mini**, etc.
-![Download Rocknix](https://github.com/amphyvi/rp5-dualboot/blob/main/screenshots/2%20Rocknix%20download.png?raw=true)
+
+   ![Download Rocknix](https://github.com/amphyvi/rp5-dualboot/blob/main/screenshots/2%20Rocknix%20download.png?raw=true)
+
 3. If you don't have it already, download the **Rufus setup** from here: [https://rufus.ie/en](https://rufus.ie/en) In our case, we'll be getting the topmost option in the list, "rufus-4.9.exe". The version number may be different when you go to download it, and that's fine - just grab the topmost option in the list.
+
+   ![Download Rufus](https://github.com/amphyvi/rp5-dualboot/blob/main/screenshots/3%20Rufus%20download.png?raw=true)
+
 4. **Run the installer** you downloaded in the previous step. Rufus will then launch. You may be prompted to approve the Windows security message, just approve it when prompted. We're now at the default Rufus screen.
+
+   ![Default Rufus screen](https://github.com/amphyvi/rp5-dualboot/blob/main/screenshots/4%20Rufus%20default.png?raw=true)
+
 5. In the **Device** drop-down menu, find your SD card (If you do not see it, open `show advanced drive properties` and enable `List USB Hard Drives`). Rufus is pretty good at determining which of your devices you may want to use, so the chances of it finding a sensitive drive on your computer and putting it in this list is minimal - but still, **be totally sure** you're choosing your SD card here.
+
+   ![Device menu](https://github.com/amphyvi/rp5-dualboot/blob/main/screenshots/5%20Device%20menu.png?raw=true)
+
 6. Once you're entirely sure you chose the SD card in your previous step, press **SELECT** \- it's below the menu mentioned in the previous step, on the right side of the window. **Choose the Rocknix image** you downloaded in step 2 (again, ending in `.img.gz`).
+
+   ![SELECT img](https://github.com/amphyvi/rp5-dualboot/blob/main/screenshots/6%20SELECT%20img.png?raw=true)
+
 7. The check mark next to the SELECT button will change color (this can be a little hard to tell). Now, just press the **START** at the bottom of the window, and Rufus will flash Rocknix to your SD card. You'll receive a message saying "WARNING: ALL DATA ON DEVICE WILL BE DESTROYED." **Now's a great time to do one final check and make sure you chose that SD card, because this is your last chance.** Once you're ready, press the button that means "yeah man, I wanna do it."
+
+   ![Rufus start](https://github.com/amphyvi/rp5-dualboot/blob/main/screenshots/7%20Rufus%20start.png?raw=true)
+
 8. If you get a second pop-up that says "IMPORTANT: THIS DRIVE CONTAINS MULTIPLE PARTITIONS" (unlikely that you'll ever see this, unless you're reflashing Rocknix or something!), just press OK to proceed.
 9. Rocknix will now flash to the SD card. When it's done, Rufus will ding and can now safely be closed. The SD card is ready to be removed from your computer! **Do that now.**
 10. **Put the SD card into your Retroid Pocket 5** (or other device that can boot from it - we'll be assuming you're using an RP5 in this guide). 

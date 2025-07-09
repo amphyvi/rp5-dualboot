@@ -92,11 +92,12 @@ If you just followed the instructions, you're probably still on Rocknix. Just re
    * **Be sure to point your Android emulators to** `/games-internal/roms/` **to find your ROMs**, The regular `/roms/` may show up as empty on Android. As far as I can tell, it seems to be a Linux filesystem link that Rocknix provides for convenience, and Android doesn't like using links like that.
 * **Why is my STORAGE partition empty in Android?** Be sure to update to the latest Android OTA firmware version. As of 2025-06-24, the version number will end in `152` if you're on an RP5.
 * **Rocknix is looking for GameCube games in the "gc" folder - but on Android, ES-DE is looking in the "gamecube" folder. Help!** Yeah... for some reason, Rocknix ES & Android ES-DE look in different folders for certain systems, namely GameCube. To fix this:
-   1. Follow the guide & set up Rocknix the first time.
-   2. Download the only XML file (`es-systems.xml`) in this GitHub repo (thanks, [Jade](https://github.com/GlazedBelmont)!)
-   3. On your device: Go to the `STORAGE` partition of the SD card, then your ES-DE folder, then open the `custom_systems` folder. Put the XML file here.
-   4. Put all your GameCube games in the `/games-internal/roms/gamecube` folder. (If the `gamecube` folder doesn't exist for some reason, create it!)
-   5. Install ES-DE on Android. During the setup process, be sure to point it to `/games-internal/roms`. When prompted to "Create system directories", press Skip - Rocknix already did that. That should do the trick!
+  0. Uninstall ES-DE from Android & delete the ES-DE folder.
+  1. Follow the guide & set up Rocknix the first time.
+  2. Download the only XML file (`es-systems.xml`) in this GitHub repo (thanks, [Jade](https://github.com/GlazedBelmont)!)
+  3. On your device: Go to the `STORAGE` partition of the SD card, then your ES-DE folder, then open the `custom_systems` folder. Put the XML file here.
+  4. Put all your GameCube games in the `/games-internal/roms/gamecube` folder. (If the `gamecube` folder doesn't exist for some reason, create it!)
+  5. Install ES-DE on Android. During the setup process, be sure to point it to `/games-internal/roms`. When prompted to "Create system directories", press Skip - Rocknix already did that. That should do the trick!
 * **If for some reason Android decides to stop being able to save data to the STORAGE partition:** Just boot into Rocknix & repeat steps 17 onward. I've never experienced this issue and it seems incredibly unlikely to ever happen, but I wanted to include this part just to be safe. A Rocknix over-the-air (OTA) update also shouldn't cause this issue, but you never know.
 
 I'm no expert when it comes to stuff like this, so please don't expect much if you reaech out to me (DMs, pull requests, issues, etc) with any questions you may have. All I did was figure out some basic stuff - with the help of friendly Redditors! - and lay the steps out in a piecemeal format like this. If you know what you're doing, it all boils down to: install Rocknix from the website... boot into it... turn on SSH... and perform the final step haha. I recommend working with the community (i.e. [their Discord](https://www.goretroid.com/pages/about-us)) to troubleshoot things if needed. Thanks!
